@@ -11,10 +11,10 @@ public class VowelsConsonants {
         String sentence = sc.nextLine().toLowerCase();
         String a = "a";
         for(int i = 0; i < sentence.length(); i++){
-            String word = sentence.;
-            if(){
+//            String word = sentence.;
+//            if(){
 
             }
         }
     }
-}
+
