@@ -10,11 +10,19 @@ public class VowelsConsonants {
         System.out.println("Enter a sentence: ");
         String sentence = sc.nextLine().toLowerCase();
         String a = "a";
-        for(int i = 0; i < sentence.length(); i++){
-//            String word = sentence.;
-//            if(){
+        int shortSentence = sentence.length();
 
+        for(int i = 0; i < shortSentence; i+= 1){
+            System.out.println("There are " + shortSentence + " words in this sentence.");
+            if(i == 0){
+                break;
+            }else{
+                continue;
             }
+
+        }
+
+
         }
     }
 
