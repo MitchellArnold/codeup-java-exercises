@@ -12,30 +12,32 @@ public class MethodsExercise {
 
         /// #2
 //        / with recursion
-        System.out.println("Please enter a number between 1 and 10.");
-        getInt(1, 10);
-        System.out.println(getInt(1,10));
+//        System.out.println("Please enter a number between 1 and 10.");
+//        getInt(1, 10);
+//        System.out.println(getInt(1,10));
 //        System.out.println(getFactorial());
         /// #3
-    }
-        public static int getInt(int min, int max){
-            Scanner sc = new Scanner(System.in);
 
-            if(sc.hasNextInt()){
-                System.out.println("Valid input!");
-                int userNum = sc.nextInt();
-                if(userNum >= min && userNum <= max){
-                    System.out.println("Valid range!");
-                }else{
-                    System.out.println("Invalid range!");
-                    return getInt(min, max);
-                }
-            }else {
-                System.out.println("Invalid input!");
-                return getInt(min, max);
-            }
-            return 0;
-        }
+        diceRoll();
+    }
+//        public static int getInt(int min, int max){
+//            Scanner sc = new Scanner(System.in);
+//
+//            if(sc.hasNextInt()){
+//                System.out.println("Valid input!");
+//                int userNum = sc.nextInt();
+//                if(userNum >= min && userNum <= max){
+//                    System.out.println("Valid range!");
+//                }else{
+//                    System.out.println("Invalid range!");
+//                    return getInt(min, max);
+//                }
+//            }else {
+//                System.out.println("Invalid input!");
+//                return getInt(min, max);
+//            }
+//            return 0;
+//        }
 
 
 
@@ -119,8 +121,23 @@ public class MethodsExercise {
 //        }
 //    }
 
+//// #4
+// Dice rolling
+
+    public static int diceRoll(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number of sides for each dice in the pair: ");
+        int userDice = sc.nextInt();
+        System.out.println("Roll the dice? (Y/N)");
+        String answer = sc.nextLine();
+
+        do {
+            System.out.println(userDice);
 
 
+        }while (answer.equals("Y"));
+        return 0;
+    }
 
 
 

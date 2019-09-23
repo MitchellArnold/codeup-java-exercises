@@ -1,28 +1,27 @@
 package Bonus;
 
+import javax.print.DocFlavor;
 import java.util.Scanner;
 
 public class VowelsConsonants {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter a sentence: ");
-        String sentence = sc.nextLine().toLowerCase();
-        String a = "a";
-        int shortSentence = sentence.length();
-
-        for(int i = 0; i < shortSentence; i+= 1){
-            System.out.println("There are " + shortSentence + " words in this sentence.");
-            if(i == 0){
-                break;
-            }else{
-                continue;
-            }
-
+//        isVowel();
         }
 
+//        public static String isVowel() {
+//        Scanner sc = new Scanner(System.in);
+//            String sentence = sc.nextLine().toLowerCase();
 
-        }
+//            for (int i = 0; i < sentence.length(); i++) {
+//                if (sentence.charAt(i).equals('a') || sentence.indexOf(i) == 'e' || sentence.indexOf(i) == 'i' || sentence.indexOf(i) == 'o' || sentence.indexOf(i) == 'u') {
+//                    return "This sentence contains a vowel";
+//                }else {
+//                    return "This sentence doesn't contain a vowel";
+//                }
+//            }
+//        }
     }
 
