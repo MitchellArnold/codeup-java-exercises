@@ -2,7 +2,7 @@ public class FizzBuzz {
 
     public static void main(String[] args) {
 
-        fizzBuzzLoop();
+//        fizzBuzzLoop();
     }
 
         public static void fizzBuzzLoop(int i) {
