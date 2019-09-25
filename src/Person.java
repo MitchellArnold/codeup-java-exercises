@@ -23,22 +23,22 @@ public class Person {
 
 
     public static void main(String[] args) {
-//        Person Mitch = new Person("Mitchell");
-//        System.out.println(Mitch.getName());
-//        Mitch.setName("Arnold");
-//        Mitch.sayHello();
+        Person Mitch = new Person("Mitchell");
+        System.out.println(Mitch.getName());
+        Mitch.setName("Arnold");
+        Mitch.sayHello();
 
-//
-//        Person person1 = new Person("John");
-//        Person person2 = new Person("John");
-//        System.out.println(person1.getName().equals(person2.getName())); /// working with only value
-//        System.out.println(person1 == person2); /// working with constructor name
+
+        Person person1 = new Person("John");
+        Person person2 = new Person("John");
+        System.out.println(person1.getName().equals(person2.getName())); /// working with only value
+        System.out.println(person1 == person2); /// working with constructor name
 
 
 //        Person person1 = new Person("John");
 //        Person person2 = person1;
 //        System.out.println(person1 == person2); /// true; being that it's the same instance and not a new one
-
+//
 //        Person person1 = new Person("John");
 //        Person person2 = person1; /// same instance  **think line by line**
 //        System.out.println(person1.getName()); // John

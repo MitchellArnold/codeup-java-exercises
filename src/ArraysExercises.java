@@ -1,15 +1,12 @@
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.Arrays;
 
 public class ArraysExercises {
 
     static Person[] people = new Person[3];
+//    String[] people = new String[3];
 
 
-//    static void addPerson(Person people){
-////        Person people
-//    }
+
 
 
     public static void main(String[] args) {
@@ -21,15 +18,28 @@ public class ArraysExercises {
         people[2] = new Person("Mitchell");
 //        people[3] = new Person("Marcus");
 
-//        System.out.println(Arrays.toString(people));
         System.out.println("args = " + Arrays.toString(people));
 
 
+//        for(int x=0; people.length; x++){
+//
+//        }
+
         for(Person persons: people) {
-            System.out.println(persons);
+            System.out.println(persons.getName());
         }
 
+        Person name1 = new Person("ricky");
+
+        addPerson(people, name1);
     }
 
+
+    static int[] addPerson(Person[] people, Person singlePerson){
+        System.out.println(people.length);
+        int[] pLength = {people.length + 1};
+        System.out.println(singlePerson.getName());
+        return pLength;
+    }
 
 }
