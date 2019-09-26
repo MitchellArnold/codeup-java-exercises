@@ -18,7 +18,7 @@ public class ArraysExercises {
         people[2] = new Person("Mitchell");
 //        people[3] = new Person("Marcus");
 
-        System.out.println("args = " + Arrays.toString(people));
+//        System.out.println("args = " + Arrays.toString(people));
 
 
 //        for(int x=0; people.length; x++){

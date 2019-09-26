@@ -2,6 +2,9 @@ public class Person {
     ///properties
     private String name;
 
+    private String firstName;
+    private String lastName;
+
     public String getName() {
         return name;
     }
@@ -19,6 +22,11 @@ public class Person {
 //        setName(userName);   /// this is recursion example from walkthrough
     }
 
+    public Person(String fName, String lName){
+        firstName = fName;
+        lastName = lName;
+//        setName(userName);   /// this is recursion example from walkthrough
+    }
 
 
 
