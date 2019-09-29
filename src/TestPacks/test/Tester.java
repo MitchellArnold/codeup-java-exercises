@@ -1,3 +1,5 @@
+package TestPacks.test;
+
 import java.lang.reflect.Array;
 
 public class Tester {
@@ -20,8 +22,8 @@ public class Tester {
     };
 
     public static Person[] people = {
-            new Person("bob123"),
-            new Person("stan123")
+//            new Person("bob123"),
+//            new Person("stan123")
     };
 
 

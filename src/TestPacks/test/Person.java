@@ -1,4 +1,4 @@
-package test;
+package TestPacks.test;
 
 public class Person {
     public String firstName;
@@ -14,17 +14,19 @@ public class Person {
 
 //    Person matthew = new Person();
     public String sayHello(){
-        return String.format("Greetings from Tennessee. \n %s %s", firstName, lastName);
+        return String.format("Greetings from %s %s.", firstName, lastName);
     }
 
     public String sayCleanRoom(){
         return String.format("Did you clean your room today, %s?", firstName);
     }
 
+
     public static void main(String[] args) {
-    Person matthew = new Person("Matthew", "Gotcher");
-        System.out.println("matthew.sayHello() = " + matthew.sayHello());
-        System.out.println("matthew.sayCleanRoom() = " + matthew.sayCleanRoom());
+        String out = String.format("Hello where I am %d", 30);
+        Person matthew = new Person("Matthew", "Gotcher");
+        System.out.println(matthew.sayHello());
+        System.out.println(out);
+
     }
-    
 }

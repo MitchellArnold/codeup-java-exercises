@@ -1,4 +1,4 @@
-package test;
+package TestPacks.test;
 
 public class SuperclassTesteroo {
 

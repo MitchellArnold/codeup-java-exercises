@@ -1,3 +1,5 @@
+package TestPacks.test;
+
 public class Testering {
         public String firstName;
         public String lastName;
