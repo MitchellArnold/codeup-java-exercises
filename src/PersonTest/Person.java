@@ -4,6 +4,7 @@ public class Person {
         public String firstName; // class property
         public String lastName; // class property
         public int nostrilCount; // class property
+//        public double
 
         public String sayHello() {
             return String.format("Hello from %s %s!", firstName, lastName);

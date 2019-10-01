@@ -33,10 +33,15 @@ public class Input {
         }else {
             return 0;
         }
+
     }
 
-    public int getInt() {
-        return scanner.nextInt();
+
+    public int getInt() throws Exception {
+        Integer number = scanner.nextInt();
+        Integer result = Integer.valueOf(number);
+        return result;
+
     }
 
 
@@ -50,13 +55,21 @@ public class Input {
         }
     }
 
-    public double getDouble() {
-        return scanner.nextInt();
+    public double getDouble() throws Exception{
+        Double number = scanner.nextDouble();
+        Double result = Double.valueOf(number);
+        return result;
     }
 
 
     public static void main(String[] args) {
-        System.out.println();
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Welcome to the Input.\n");
+        System.out.println("Enter a Integer:");
+        Integer number = sc.nextInt();
+        System.out.println("You entered );
+
     }
 
 }
