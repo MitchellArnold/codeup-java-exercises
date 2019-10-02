@@ -1,4 +1,4 @@
-package TestPacks.test;
+package TestPacks.JustTests;
 
 public class Testering {
         public String firstName;

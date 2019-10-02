@@ -41,7 +41,6 @@ public class Input {
         Integer number = scanner.nextInt();
         Integer result = Integer.valueOf(number);
         return result;
-
     }
 
 
@@ -55,21 +54,11 @@ public class Input {
         }
     }
 
-    public double getDouble() throws Exception{
+    public double getDouble() throws Exception {
         Double number = scanner.nextDouble();
         Double result = Double.valueOf(number);
         return result;
     }
 
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("Welcome to the Input.\n");
-        System.out.println("Enter a Integer:");
-        Integer number = sc.nextInt();
-        System.out.println("You entered );
-
-    }
 
 }

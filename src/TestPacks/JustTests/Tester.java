@@ -1,6 +1,6 @@
-package TestPacks.test;
+package TestPacks.JustTests;
 
-import java.lang.reflect.Array;
+import TestPacks.Friends.Person;
 
 public class Tester {
 

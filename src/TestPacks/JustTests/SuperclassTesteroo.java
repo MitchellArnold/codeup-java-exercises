@@ -1,4 +1,4 @@
-package TestPacks.test;
+package TestPacks.JustTests;
 
 import java.util.Scanner;
 
