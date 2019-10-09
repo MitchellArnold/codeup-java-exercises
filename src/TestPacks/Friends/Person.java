@@ -7,8 +7,8 @@ public class Person {
     public String firstName;
     public String lastName;
     public String adjective;
-    public static int singleDigit;
     public int age;
+    public static int singleDigit;
 
 
 
@@ -42,3 +42,4 @@ public class Person {
 
 
 }
+

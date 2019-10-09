@@ -31,7 +31,7 @@ public class Person {
 
 
     public static void main(String[] args) {
-        Person Mitch = new Person("Mitchell");
+        Person Mitch = new Person("Mitchell" , "Arnold");
         System.out.println(Mitch.getName());
         Mitch.setName("Arnold");
         Mitch.sayHello();
@@ -39,8 +39,8 @@ public class Person {
 
         Person person1 = new Person("John");
         Person person2 = new Person("John");
-        System.out.println(person1.getName().equals(person2.getName())); /// working with only value
-        System.out.println(person1 == person2); /// working with constructor name
+//        System.out.println(person1.getName().equals(person2.getName())); /// working with only value
+//        System.out.println(person1 == person2); /// working with constructor name
 
 
 //        Person person1 = new Person("John");

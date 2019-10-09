@@ -1,11 +1,13 @@
 package TestPacks.Friends;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class PersonsTest{
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
         System.out.println("Welcome to the Person Test...\n\n");
         System.out.println("___       ________________ _____________________  ____________\n" +
@@ -29,7 +31,7 @@ public class PersonsTest{
 //        System.out.println(matthew.sayCleanRoom());
 //        System.out.println(matthew);
 //        System.out.println(out);
-        System.out.println("Enter a first name: ");
+       /* System.out.println("Enter a first name: ");
         String firstName = sc.nextLine();
         System.out.println("Enter a last name: ");
         String lastName = sc.nextLine();
@@ -39,6 +41,26 @@ public class PersonsTest{
 //        System.out.println(mitch.toString());
         System.out.println(mitch.sayCleanRoom());
 //        System.out.println(mitch.speakLingo());
+        Person p1 = new Person("john", "jacob", 22);
+        Person p2 = new Friend("mitch", "jason", 59);
+        System.out.println(p1.sayHello());
+        System.out.println(p2.sayHello());*/
+
+        List<Integer> ints = new ArrayList<>();
+        ints.add(1);
+        ints.add(2);
+        ints.add(3);
+        ints.add(4);
+        ints.add(5);
+
+        for(Integer num : ints) {
+            System.out.println(num);
+            num++;
+            System.out.println(num);
+        }
+
+
+
 
     }
 }
