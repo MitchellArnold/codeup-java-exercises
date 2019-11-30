@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 public class MethodsExercises {
+    String methods;
+
+
 
     public static void main(String[] args) {
         /// #1
